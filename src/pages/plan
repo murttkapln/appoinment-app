@@ -1,0 +1,6 @@
+##Home kapsayıcı component olacak
+
+--Home
+    -- h1-- Hospital
+    -- h4 -- Doctors
+    --<Doctors/>

@@ -4,16 +4,16 @@ import AddModal from "./AddModal";
 
 const Doctor = ({ name, dep, img, setModal, modal }) => {
   const handleClick = () => {
-    setModal(modal);
+    setModal(!modal);
   };
   return (
     <>
-      {modal && <AddModal/>}
+      {!modal && <AddModal/>}
       <Col>
         <Card
           onClick={handleClick}
           style={{ width: "14rem", height: "16rem" }}
-          className="border-0 m-auto"
+          className="border-5 border-success m-auto"
           role="button"
           >
           <Card.Img variant="top" src={img} className="img-thumbnail" />

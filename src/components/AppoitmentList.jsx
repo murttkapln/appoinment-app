@@ -1,13 +1,20 @@
 import { Container } from "react-bootstrap"
 
 
-const AppoitmentList = ({patience,day,consulted,doctor, setAppoinment, appoinment}) => {
-  console.log(doctor);
+const AppoitmentList = ({patient,day,consulted,doctor, setAppoinment, appoinment}) => {
+  // console.log(doctor);
+  console.log(day);
   return (
     <Container>
-        <h2>
-
-        </h2>
+          <div>
+            <ul>
+            <h3>{doctor}</h3>
+            <h6>{patient}</h6>
+            </ul>
+            <ul>
+              <li>Date:{day}</li>
+            </ul>
+          </div>
     </Container>
   )
 }

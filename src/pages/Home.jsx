@@ -9,13 +9,14 @@ import { appointmentData } from "../helpers/data";
 const Home = () => {
   const [appoinment, setAppoinment] = useState("");
   const [showForm, setShowForm] = useState(false);
+  const [doctor , setDoctor ] = useState("")
   return (
     <Container className="text-center">
       <h1 className="text-danger fw-bold">HOSPITAL</h1>
       <h4>Our Doctors</h4>
       <Row
-        xs="1"
-        md="2"
+        xs="2"
+        md="3"
         lg="4"
         className="justify-content-evenly g-2"
       >
@@ -25,6 +26,7 @@ const Home = () => {
             {...doctor}
             setModal={setShowForm}
             modal={showForm}
+            setDoctor={setDoctor}
           />
         ))}
       </Row>
@@ -36,7 +38,7 @@ const Home = () => {
           setAppoinment={setAppoinment}
         />
       ))}
-      <AddModal setModal={setShowForm} modal={showForm}  />
+      <AddModal setModal={setShowForm} modal={showForm} doctor={doctor}  />
     </Container>
   );
 };

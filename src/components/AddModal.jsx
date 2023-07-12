@@ -1,4 +1,4 @@
-import { useState } from 'react';
+
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal';
@@ -6,10 +6,11 @@ import Modal from 'react-bootstrap/Modal';
 const AddModal=({setModal, modal})=> {
 
 
+
   return (
       <Modal size='md' show={modal}>
         <Modal.Header closeButton onClick={()=> setModal(!modal)}>
-          <Modal.Title>Appoinment for</Modal.Title>
+          <Modal.Title>Appoinment for </Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Form>

@@ -10,6 +10,7 @@ const Home = () => {
   const [appoinment, setAppoinment] = useState("");
   const [showForm, setShowForm] = useState(false);
   const [doctor , setDoctor ] = useState("")
+
   return (
     <Container className="text-center">
       <h1 className="text-danger fw-bold">HOSPITAL</h1>
@@ -30,6 +31,8 @@ const Home = () => {
           />
         ))}
       </Row>
+      <>
+      <h2 className="diplay-6 fw-bold">Appoinment List</h2>
       {appointmentData.map((appoinmentInfo) => (
         <AppoitmentList
           key={appoinmentInfo.id}
@@ -37,7 +40,8 @@ const Home = () => {
           appoinment={appoinment}
           setAppoinment={setAppoinment}
         />
-      ))}
+      ))}</>
+      
       <AddModal setModal={setShowForm} modal={showForm} doctor={doctor}  />
     </Container>
   );

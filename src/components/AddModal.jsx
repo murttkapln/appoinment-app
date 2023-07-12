@@ -1,10 +1,15 @@
 
+import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal';
 
 const AddModal=({setModal, modal,doctor})=> {
 
+const handleSubmit =(e)=>{
+  e.preventDefault()
+
+}
 
 
   return (
@@ -13,25 +18,25 @@ const AddModal=({setModal, modal,doctor})=> {
           <Modal.Title>Appoinment for {doctor}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <Form>
+          <Form onSubmit={handleSubmit}>
             <Form.Group className="mb-3">
-              <Form.Label>Name</Form.Label>
+              <Form.Label>Patient Name</Form.Label>
               <Form.Control
-                type="email"
-                placeholder="Name"
+                type="text"
+                placeholder="Enter your name"
                 autoFocus
               />
             </Form.Group>
             <Form.Group
               className="mb-3"
             >
-              <Form.Label>Date</Form.Label>
+              <Form.Label>Day&Time</Form.Label>
               <Form.Control  type='date'/>
             </Form.Group>
           </Form>
         </Modal.Body>
         <Modal.Footer className='m-auto'>
-          <Button variant="primary" type='submit' disabled onSubmit={()=> setModal(modal)}>
+          <Button variant="primary" type='submit'>
             Submit
           </Button>
           <Button variant="danger" onClick={()=> setModal(!modal)}>

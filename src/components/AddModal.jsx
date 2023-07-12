@@ -3,14 +3,14 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal';
 
-const AddModal=({setModal, modal})=> {
+const AddModal=({setModal, modal,doctor})=> {
 
 
 
   return (
-      <Modal size='md' show={modal}>
-        <Modal.Header closeButton onClick={()=> setModal(!modal)}>
-          <Modal.Title>Appoinment for </Modal.Title>
+      <Modal size='md' show={modal} onHide={setModal}>
+        <Modal.Header closeButton>
+          <Modal.Title>Appoinment for {doctor}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Form>

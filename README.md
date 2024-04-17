@@ -8,7 +8,7 @@
 
 | **What's used in this app ?**                                                           | **How use third party libraries**          | **Author**                                                                       |
 | --------------------------------------------------------------------------------------- | ------------------------------------------ | -------------------------------------------------------------------------------- |
-| [lifting state up](https://react.dev/learn/sharing-state-between-components)            |                                            | [Take a look at my portfolio](https://murttkapln.github.io/) |
+| [lifting state up](https://react.dev/learn/sharing-state-between-components)            |                                            | [Take a look at my portfolio](https://github.com/murttkapln/) |
 | [useState() Hook](https://react.dev/learn#using-hooks)                                  |                                            | [Visit me on Linkedin](https://www.linkedin.com/in/murat-kaplann/)                    |
 | [react-events](https://react.dev/learn#responding-to-events)                            |                                            |                    |
 | [React-Conditional rendering](https://react.dev/learn#conditional-rendering)            |                                            |                                                                                  |

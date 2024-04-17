@@ -2,7 +2,7 @@
 
 [:point_right: Click here to see on browser](https://appointment-app-v1.netlify.app/)
 
-![appointment](https://github.com/kaplanh/Appointment_app/assets/101884444/63923413-ba65-4e73-a9b5-0ab6a696bcab)
+![Appointment App](https://github.com/murttkapln/appoinment-app/assets/98225860/a65d333a-c939-4c96-9e01-dd144eeb6424)
 
 ---
 

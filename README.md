@@ -17,11 +17,14 @@
   <tbody>
   <tr>
     <td> 
-       [React-Bootstrap](https://react-bootstrap.netlify.app/)   
-      <li> React
-      <li> Javascript
-      <li> Html
-      <li> Css
+       [lifting state up](https://react.dev/learn/sharing-state-between-components)    
+       [useState() Hook](https://react.dev/learn#using-hooks) 
+      [react-events](https://react.dev/learn#responding-to-events)
+      [React-Conditional rendering](https://react.dev/learn#conditional-rendering)  
+      [React-Bootstrap](https://react-bootstrap.netlify.app/)   
+        [React-icons](https://react-icons.github.io/react-icons/) 
+        [Semantic-Commits](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
+       Deploy with [Netlify](https://app.netlify.com/teams/kaplanh/sites)   
     </td>
     <td>  <h4>Once you clone the project</h4>  
       

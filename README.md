@@ -31,14 +31,6 @@
    </td>
     <td> <li> <a href="https://github.com/AliDurul" target="_blank">Take a look at my other projects</a> <li> <a href="https://www.linkedin.com/in/ali-durul/" target="_blank">Visit me on Linkedin</a> 
   </tr>
-  <tr>
-    <td colspan="3"><h3>What is this project about ?</h3> 
-<p>
-This project is basically an appoinment app for certain hospital,
-</p>
-    </td>
-  </tr>
-      </tbody>
 </table>
 
 ---

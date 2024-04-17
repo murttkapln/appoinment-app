@@ -4,6 +4,43 @@
 
 ![appointment](https://github.com/kaplanh/Appointment_app/assets/101884444/63923413-ba65-4e73-a9b5-0ab6a696bcab)
 
+
+
+<table>
+   <thead>
+        <tr>
+            <th>What's used in this app ?</th>
+            <th>How to run ?</th>
+            <th>Author</th>
+        </tr>
+    </thead>
+  <tbody>
+  <tr>
+    <td> 
+      <li> React-Booststrap
+      <li> React
+      <li> Javascript
+      <li> Html
+      <li> Css
+    </td>
+    <td>  <h4>Once you clone the project</h4>  
+      
+ 1) run  `pnpm install`  or `yarn install` for node modules
+ 2) run `pnpm start` or `yarn start` for open development stage
+    
+   </td>
+    <td> <li> <a href="https://github.com/AliDurul" target="_blank">Take a look at my other projects</a> <li> <a href="https://www.linkedin.com/in/ali-durul/" target="_blank">Visit me on Linkedin</a> 
+  </tr>
+  <tr>
+    <td colspan="3"><h3>What is this project about ?</h3> 
+<p>
+This project is basically an appoinment app for certain hospital,
+</p>
+    </td>
+  </tr>
+      </tbody>
+</table>
+
 ---
 
 | **What's used in this app ?**                                                           | **How use third party libraries**          | **Author**                                                                       |

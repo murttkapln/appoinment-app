@@ -219,7 +219,7 @@ Appoinment App (folder)
             ))}
     ```
 
--   tiklananin id sine göre objenin icindeki boolean degeri degiline cevirme toggle yapma
+-   tiklananin id sine göre objenin icindeki boolean degerin degiline cevirme (toggle yapma)
 
     ```jsx
         setApps(

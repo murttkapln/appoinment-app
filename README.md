@@ -86,32 +86,33 @@ OR
 ## Project Skeleton
 
 ```
- Appointment App (folder)
+Appoinment App (folder)
 |
-|----public (folder)
-│     └── index.html
-|----src (folder)
-|    |--- components (folder)
-│    │       ├── AddModal.jsx
-│    │       ├── AppointmentList.jsx
-│    │       ├── Doctors.jsx
-│    │
-|    |--- helpers (folder)
-|    |       |── data.js
-│    │
-│    |--- pages (folder)
-|    |      ├── Home.jsx
-|    |
-│    ├--- App.js
-│    │--- App.css
-│    |--- index.js
-│
-│
+|-- public
+|     |-- img
+|     |-- favicon.ico
+|     |-- index.html
+|     |-- logo192.png
+|     |-- logo512.png
+|     |-- manifest.json
+|     |-- robots.txt
+|-- src
+|    |-- components
+|    |     |-- AddModal.jsx
+|    |     |-- AppointmentList.jsx
+|    |     |-- Doctors.jsx
+|    |     |-- HazırData.jsx
+|    |-- helpers
+|    |     |-- data.jsx
+|    |-- pages
+|    |     |-- Home.jsx
+|    |-- App.css
+|    |-- App.js
+|    |-- index.js
 |-- .gitignore
-|── package-lock.json
-├── package.json
-|── README.md
-|── yarn.lock
+|-- README.md
+|-- package.json
+|-- yarn.lock
 
 
 ```

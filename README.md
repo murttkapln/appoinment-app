@@ -17,7 +17,7 @@
   <tbody>
   <tr>
     <td> 
-      <li> React-Booststrap <a href:"https://react.dev/learn/sharing-state-between-components"></a></li>
+      <li> [React-Bootstrap](https://react-bootstrap.netlify.app/)   
       <li> React
       <li> Javascript
       <li> Html

@@ -17,7 +17,7 @@
   <tbody>
   <tr>
     <td> 
-      <li> [React-Bootstrap](https://react-bootstrap.netlify.app/)   
+       [React-Bootstrap](https://react-bootstrap.netlify.app/)   
       <li> React
       <li> Javascript
       <li> Html
